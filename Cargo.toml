@@ -223,3 +223,5 @@ debug-assertions = false
 [patch.crates-io]
 console = { version = "0.15.7", git = "https://github.com/console-rs/console.git", rev = "51425fc" }
 ring = { version = "0.16.20", git = "https://github.com/zh-jq/ring-repack.git", branch = "patch-0.16" }
+c-ares = { version = "7.8", git = "https://github.com/zh-jq/rust-c-ares.git", branch = "compat" }
+c-ares-resolver = { version = "7.6", git = "https://github.com/zh-jq/c-ares-resolver.git", branch = "compat" }
